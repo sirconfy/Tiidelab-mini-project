@@ -1,0 +1,82 @@
+/* Resetting the  brower default style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: Arial;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.heading{
+    margin: 10px 0;
+}
+
+/* SEARCH BOX SECTION */
+.search-section{
+    background-color: #6461a0; 
+    padding: 10px; 
+}
+
+#search{
+    width: 100%;
+    padding: 12px 20px;
+    border: none; 
+    outline: none;
+    border-radius: 16px 0px 16px 0px;
+    border-bottom:3px solid orange;
+    /* color: #fff; */
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+}
+
+.user-list-section{
+    margin-top: 20px;
+    color: aqua;
+}
+
+li{
+    border: 1px solid #DDDDDD;
+   margin-top: -1px;   /*preventing double borders */
+    background-color: #F6F6F6;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 12px;
+    color: black;
+}
+
+li:hover{
+    background-color: #EEEEEE;
+}
+
+
+/* Pill button for username */
+.username{
+    background-color: #6461a0;
+    color: #FFFFFF;
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+/* MEDIA QUERY FOR LARGE SCREENS */
+
+@media (min-width: 1000){
+    body{
+        width: 50%;
+    }
+    
+    li{
+        font-size: 14px
+    }
+}
